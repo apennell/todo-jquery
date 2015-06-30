@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To Do List</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+  <div class="container">
+    <!-- add new todo form -->
+    <form id="newItem">
+      <div class="form-group">
+        <input class="form-control" id="itemName" placeholder="What do you need to do?" autofocus>
+      </div>
+      <div class="form-group">
+        <input type="submit" class="btn btn-success" value="Add to List!">
+      </div>
+    </form>
+
+    <!-- list -->
+    <ul id="todoList">
+      <li class="item">Make a list</li>
+      <li class="item">Style</li>
+      <li class="item">Functional form</li>
+    </ul>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>

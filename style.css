@@ -1,0 +1,8 @@
+#newItem {
+  padding-top: 25px;
+}
+
+.item.done {
+  text-decoration: line-through;
+  color: blue;
+}
